@@ -4,12 +4,13 @@ import tkinter as tk
 window_width = 600
 window_height = 600
 
-root = tk.Tk()
+root = tk.Tk(tk)
 
 canvas = tk.Canvas(root, width=window_width, height=window_height, bg="#DDDDDD")
 canvas.grid()
 
 # 1. Ask the user what color tomato they would like and save their response
+simpledialog.askstring(title='Greeter')
 #    You can give them up to three choices
 
 
